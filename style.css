@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: #111827;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.navbar-nav a {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding: 0 20px;
+
+}
+
+.navbar-nav button {
+    padding: 12px 24px;
+    border-radius: 5px;
+    background: linear-gradient(91deg, #2563EB, #D946EF 100%);
+    color: white;
+    font-size: 17px;
+    border: none;
+    transition: .4s
+
+
+}
+
+.navbar-nav button:hover {
+    transform: scale(1.1);
+}
+
+#hero {
+    padding: 50px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h1 {
+    color: purple;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #E5E7EB;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 29px 0 31px 0;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+}
+
+.hero-button button {
+    color: #F9FAFB;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: linear-gradient(91deg, #2563EB 0%, #D946EF 100%);
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    outline: none
+}
+
+.hero-button ion-icon {
+    color: #FFFFFF;
+    margin: 0 15px;
+    font-size: 30px;
+}
+
+.hero-button h5 {
+    color: #F9FAFB;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero img {
+    width: 580px;
+    height: 580px;
+    object-fit: contain;
+}
+
+.services-title {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.services-desc {
+    padding: 30px 0 40px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.services-img {
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(91deg, #2563EB 0%, #D946EF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.services-group-block {
+    margin: 0 30px 30px 0;
+    width: 370px;
+    height: 336px;
+    border-radius: 34px;
+    background: linear-gradient(268deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0 22px 18px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-group-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#customer {
+    padding: 30px 0;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text h1 {
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.text button {
+    padding: 7px 14px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    background:  linear-gradient(91deg, #2563EB , #D946EF 100%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#complete {
+    padding: 30px 0;
+}
+
+.complete-text h1 {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+}
+.complete-text p {
+    padding: 30px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.complete-text button {
+    padding: 7px 14px;
+    color: white;
+    background: rgba(0, 34, 255, 0.6);
+
+}
+
+.complete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#team {
+    padding: 30px 0;
+}
+
+.team-text h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+}
+.team-text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0 40px 0;
+}
+
+.team-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 266px;
+    border-radius: 34px;
+    background: linear-gradient(268deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.team-block h2 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.team-block h4 {
+    padding: 10px 0 10px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+
+.team-icon ion-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #00aeff;
+}
+
+#news {
+    position: relative;
+    padding: 50px 0;
+}
+
+.news  {
+    position: relative;
+}
+
+.news-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 295px;
+    border-radius: 34px;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0 22px 18px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.news-block h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.news-block p {
+    padding: 13px 0 29px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-inp {
+    display: flex;
+    position: relative;
+}
+
+.news-inp input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 860px;
+    height: 80px;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+
+.news-btn {
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    padding: 19px 53px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    background:  linear-gradient(91deg, #2563EB , #D946EF 100%);
+}
+
+.news-btn img {
+    margin-right: 8px;
+}
+
+.company-comp a {
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding: 0 20px;
+}
+
+#footer {
+    padding: 25px 0;
+}
+
+.footer-icon {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon ion-icon {
+
+}
+
+.footer-general  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer-nav a {
+    color: blue;
+    padding: 10px 0;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    margin: 15px 0;
+}
+
